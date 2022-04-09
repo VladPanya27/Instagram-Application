@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		001822E728016B49009A437C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001822E628016B49009A437C /* AppDelegate.swift */; };
 		001822E928016B49009A437C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001822E828016B49009A437C /* SceneDelegate.swift */; };
-		001822EB28016B49009A437C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001822EA28016B49009A437C /* ViewController.swift */; };
-		001822EE28016B49009A437C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001822EC28016B49009A437C /* Main.storyboard */; };
+		001822EB28016B49009A437C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001822EA28016B49009A437C /* HomeViewController.swift */; };
 		001822F028016B4D009A437C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001822EF28016B4D009A437C /* Assets.xcassets */; };
 		001822F328016B4D009A437C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001822F128016B4D009A437C /* LaunchScreen.storyboard */; };
+		0018230228016E10009A437C /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0018230028016E10009A437C /* ExploreViewController.swift */; };
+		0018230328016E10009A437C /* ExploreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0018230128016E10009A437C /* ExploreViewController.xib */; };
+		0018230728016E42009A437C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0018230528016E42009A437C /* CameraViewController.swift */; };
+		0018230828016E42009A437C /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0018230628016E42009A437C /* CameraViewController.xib */; };
+		0018230C28016E6F009A437C /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0018230A28016E6F009A437C /* NotificationsViewController.swift */; };
+		0018230D28016E6F009A437C /* NotificationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0018230B28016E6F009A437C /* NotificationsViewController.xib */; };
+		0018231128016E8F009A437C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0018230F28016E8F009A437C /* ProfileViewController.swift */; };
+		0018231228016E8F009A437C /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0018231028016E8F009A437C /* ProfileViewController.xib */; };
+		0018231628016F4E009A437C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0018231428016F4D009A437C /* TabBarViewController.swift */; };
+		0018231728016F4E009A437C /* TabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0018231528016F4D009A437C /* TabBarViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		001822E328016B49009A437C /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		001822E628016B49009A437C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		001822E828016B49009A437C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		001822EA28016B49009A437C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		001822ED28016B49009A437C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		001822EA28016B49009A437C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		001822EF28016B4D009A437C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		001822F228016B4D009A437C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		001822F428016B4D009A437C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0018230028016E10009A437C /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		0018230128016E10009A437C /* ExploreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExploreViewController.xib; sourceTree = "<group>"; };
+		0018230528016E42009A437C /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		0018230628016E42009A437C /* CameraViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		0018230A28016E6F009A437C /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		0018230B28016E6F009A437C /* NotificationsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationsViewController.xib; sourceTree = "<group>"; };
+		0018230F28016E8F009A437C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0018231028016E8F009A437C /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		0018231428016F4D009A437C /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		0018231528016F4D009A437C /* TabBarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabBarViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,104 @@
 		001822E528016B49009A437C /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
-				001822E628016B49009A437C /* AppDelegate.swift */,
-				001822E828016B49009A437C /* SceneDelegate.swift */,
-				001822EA28016B49009A437C /* ViewController.swift */,
-				001822EC28016B49009A437C /* Main.storyboard */,
-				001822EF28016B4D009A437C /* Assets.xcassets */,
-				001822F128016B4D009A437C /* LaunchScreen.storyboard */,
+				001822FA28016CD9009A437C /* Resources */,
+				001822FD28016CFE009A437C /* Models */,
+				001822FC28016CF5009A437C /* Views */,
+				001822FB28016CEC009A437C /* Controllers */,
 				001822F428016B4D009A437C /* Info.plist */,
 			);
 			path = Instagram;
+			sourceTree = "<group>";
+		};
+		001822FA28016CD9009A437C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				001822E628016B49009A437C /* AppDelegate.swift */,
+				001822E828016B49009A437C /* SceneDelegate.swift */,
+				001822EF28016B4D009A437C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		001822FB28016CEC009A437C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0018231328016EEC009A437C /* TabBarViewController */,
+				001822FE28016DDC009A437C /* HomeViewController */,
+				0018230E28016E79009A437C /* ProfileViewController */,
+				0018230928016E4D009A437C /* NotificationsViewController */,
+				0018230428016E2A009A437C /* CameraViewController */,
+				001822FF28016DEA009A437C /* ExploreViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		001822FC28016CF5009A437C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				001822F128016B4D009A437C /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		001822FD28016CFE009A437C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		001822FE28016DDC009A437C /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				001822EA28016B49009A437C /* HomeViewController.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		001822FF28016DEA009A437C /* ExploreViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0018230028016E10009A437C /* ExploreViewController.swift */,
+				0018230128016E10009A437C /* ExploreViewController.xib */,
+			);
+			path = ExploreViewController;
+			sourceTree = "<group>";
+		};
+		0018230428016E2A009A437C /* CameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0018230528016E42009A437C /* CameraViewController.swift */,
+				0018230628016E42009A437C /* CameraViewController.xib */,
+			);
+			path = CameraViewController;
+			sourceTree = "<group>";
+		};
+		0018230928016E4D009A437C /* NotificationsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0018230A28016E6F009A437C /* NotificationsViewController.swift */,
+				0018230B28016E6F009A437C /* NotificationsViewController.xib */,
+			);
+			path = NotificationsViewController;
+			sourceTree = "<group>";
+		};
+		0018230E28016E79009A437C /* ProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0018230F28016E8F009A437C /* ProfileViewController.swift */,
+				0018231028016E8F009A437C /* ProfileViewController.xib */,
+			);
+			path = ProfileViewController;
+			sourceTree = "<group>";
+		};
+		0018231328016EEC009A437C /* TabBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0018231428016F4D009A437C /* TabBarViewController.swift */,
+				0018231528016F4D009A437C /* TabBarViewController.xib */,
+			);
+			path = TabBarViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +232,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0018231228016E8F009A437C /* ProfileViewController.xib in Resources */,
+				0018230328016E10009A437C /* ExploreViewController.xib in Resources */,
+				0018230D28016E6F009A437C /* NotificationsViewController.xib in Resources */,
+				0018230828016E42009A437C /* CameraViewController.xib in Resources */,
+				0018231728016F4E009A437C /* TabBarViewController.xib in Resources */,
 				001822F328016B4D009A437C /* LaunchScreen.storyboard in Resources */,
 				001822F028016B4D009A437C /* Assets.xcassets in Resources */,
-				001822EE28016B49009A437C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +249,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				001822EB28016B49009A437C /* ViewController.swift in Sources */,
+				0018231628016F4E009A437C /* TabBarViewController.swift in Sources */,
+				0018230228016E10009A437C /* ExploreViewController.swift in Sources */,
+				0018230728016E42009A437C /* CameraViewController.swift in Sources */,
+				001822EB28016B49009A437C /* HomeViewController.swift in Sources */,
+				0018230C28016E6F009A437C /* NotificationsViewController.swift in Sources */,
+				0018231128016E8F009A437C /* ProfileViewController.swift in Sources */,
 				001822E728016B49009A437C /* AppDelegate.swift in Sources */,
 				001822E928016B49009A437C /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +263,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		001822EC28016B49009A437C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				001822ED28016B49009A437C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		001822F128016B4D009A437C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +399,6 @@
 				INFOPLIST_FILE = Instagram/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +425,6 @@
 				INFOPLIST_FILE = Instagram/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
