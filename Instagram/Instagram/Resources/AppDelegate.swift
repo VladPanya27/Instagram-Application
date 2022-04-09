@@ -7,6 +7,7 @@
 
 import UIKit
 import Firebase
+import FirebaseAuth
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,11 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        FirebaseApp.configure()
+        
         let window = UIWindow(frame: UIScreen.main.bounds)
-        window.rootViewController = TabBarViewController()
+        FirebaseAuthManager.shared.checkUser(window: window)
         window.makeKeyAndVisible()
         self.window = window
-        FirebaseApp.configure()
+        
         return true
     }
 
