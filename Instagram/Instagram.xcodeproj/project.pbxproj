@@ -22,6 +22,26 @@
 		0018231228016E8F009A437C /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0018231028016E8F009A437C /* ProfileViewController.xib */; };
 		0018231628016F4E009A437C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0018231428016F4D009A437C /* TabBarViewController.swift */; };
 		0018231728016F4E009A437C /* TabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0018231528016F4D009A437C /* TabBarViewController.xib */; };
+		0018231B2801709D009A437C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001823192801709D009A437C /* LoginViewController.swift */; };
+		0018231C2801709D009A437C /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0018231A2801709D009A437C /* LoginViewController.xib */; };
+		00182320280170C5009A437C /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0018231E280170C5009A437C /* RegistrationViewController.swift */; };
+		00182321280170C5009A437C /* RegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0018231F280170C5009A437C /* RegistrationViewController.xib */; };
+		0018232528017172009A437C /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0018232328017172009A437C /* PostViewController.swift */; };
+		0018232628017172009A437C /* PostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0018232428017172009A437C /* PostViewController.xib */; };
+		0018232A28017189009A437C /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0018232828017189009A437C /* EditViewController.swift */; };
+		0018232B28017189009A437C /* EditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0018232928017189009A437C /* EditViewController.xib */; };
+		0018232F280171DC009A437C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0018232D280171DC009A437C /* SettingsViewController.swift */; };
+		00182330280171DC009A437C /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0018232E280171DC009A437C /* SettingsViewController.xib */; };
+		00182334280171FC009A437C /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00182332280171FC009A437C /* ListViewController.swift */; };
+		00182335280171FC009A437C /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00182333280171FC009A437C /* ListViewController.xib */; };
+		001823392801721A009A437C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001823372801721A009A437C /* SearchViewController.swift */; };
+		0018233A2801721A009A437C /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 001823382801721A009A437C /* SearchViewController.xib */; };
+		0018233E28017235009A437C /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0018233C28017235009A437C /* ResultViewController.swift */; };
+		0018233F28017235009A437C /* ResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0018233D28017235009A437C /* ResultViewController.xib */; };
+		001823432801729D009A437C /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001823412801729D009A437C /* PostEditorViewController.swift */; };
+		001823442801729D009A437C /* PostEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 001823422801729D009A437C /* PostEditorViewController.xib */; };
+		00182348280172C0009A437C /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00182346280172C0009A437C /* PublishPostViewController.swift */; };
+		00182349280172C0009A437C /* PublishPostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00182347280172C0009A437C /* PublishPostViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +62,26 @@
 		0018231028016E8F009A437C /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		0018231428016F4D009A437C /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		0018231528016F4D009A437C /* TabBarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabBarViewController.xib; sourceTree = "<group>"; };
+		001823192801709D009A437C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0018231A2801709D009A437C /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		0018231E280170C5009A437C /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		0018231F280170C5009A437C /* RegistrationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegistrationViewController.xib; sourceTree = "<group>"; };
+		0018232328017172009A437C /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		0018232428017172009A437C /* PostViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostViewController.xib; sourceTree = "<group>"; };
+		0018232828017189009A437C /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		0018232928017189009A437C /* EditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditViewController.xib; sourceTree = "<group>"; };
+		0018232D280171DC009A437C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0018232E280171DC009A437C /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		00182332280171FC009A437C /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		00182333280171FC009A437C /* ListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		001823372801721A009A437C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		001823382801721A009A437C /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		0018233C28017235009A437C /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		0018233D28017235009A437C /* ResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultViewController.xib; sourceTree = "<group>"; };
+		001823412801729D009A437C /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
+		001823422801729D009A437C /* PostEditorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostEditorViewController.xib; sourceTree = "<group>"; };
+		00182346280172C0009A437C /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
+		00182347280172C0009A437C /* PublishPostViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PublishPostViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +137,16 @@
 			isa = PBXGroup;
 			children = (
 				0018231328016EEC009A437C /* TabBarViewController */,
+				00182345280172A7009A437C /* PublishPostViewController */,
+				0018234028017282009A437C /* PostEditorViewController */,
+				0018233B2801721F009A437C /* ResultViewController */,
+				0018233628017201009A437C /* SearchViewController */,
+				00182331280171E9009A437C /* ListViewController */,
+				0018232C280171BD009A437C /* SettingsViewController */,
+				0018232728017178009A437C /* EditProfileViewController */,
+				0018232228017155009A437C /* PostViewController */,
+				0018231D280170A7009A437C /* RegistrationViewController */,
+				001823182801707B009A437C /* LoginViewController */,
 				001822FE28016DDC009A437C /* HomeViewController */,
 				0018230E28016E79009A437C /* ProfileViewController */,
 				0018230928016E4D009A437C /* NotificationsViewController */,
@@ -174,6 +224,96 @@
 			path = TabBarViewController;
 			sourceTree = "<group>";
 		};
+		001823182801707B009A437C /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				001823192801709D009A437C /* LoginViewController.swift */,
+				0018231A2801709D009A437C /* LoginViewController.xib */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		0018231D280170A7009A437C /* RegistrationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0018231E280170C5009A437C /* RegistrationViewController.swift */,
+				0018231F280170C5009A437C /* RegistrationViewController.xib */,
+			);
+			path = RegistrationViewController;
+			sourceTree = "<group>";
+		};
+		0018232228017155009A437C /* PostViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0018232328017172009A437C /* PostViewController.swift */,
+				0018232428017172009A437C /* PostViewController.xib */,
+			);
+			path = PostViewController;
+			sourceTree = "<group>";
+		};
+		0018232728017178009A437C /* EditProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0018232828017189009A437C /* EditViewController.swift */,
+				0018232928017189009A437C /* EditViewController.xib */,
+			);
+			path = EditProfileViewController;
+			sourceTree = "<group>";
+		};
+		0018232C280171BD009A437C /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0018232D280171DC009A437C /* SettingsViewController.swift */,
+				0018232E280171DC009A437C /* SettingsViewController.xib */,
+			);
+			path = SettingsViewController;
+			sourceTree = "<group>";
+		};
+		00182331280171E9009A437C /* ListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				00182332280171FC009A437C /* ListViewController.swift */,
+				00182333280171FC009A437C /* ListViewController.xib */,
+			);
+			path = ListViewController;
+			sourceTree = "<group>";
+		};
+		0018233628017201009A437C /* SearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				001823372801721A009A437C /* SearchViewController.swift */,
+				001823382801721A009A437C /* SearchViewController.xib */,
+			);
+			path = SearchViewController;
+			sourceTree = "<group>";
+		};
+		0018233B2801721F009A437C /* ResultViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0018233C28017235009A437C /* ResultViewController.swift */,
+				0018233D28017235009A437C /* ResultViewController.xib */,
+			);
+			path = ResultViewController;
+			sourceTree = "<group>";
+		};
+		0018234028017282009A437C /* PostEditorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				001823412801729D009A437C /* PostEditorViewController.swift */,
+				001823422801729D009A437C /* PostEditorViewController.xib */,
+			);
+			path = PostEditorViewController;
+			sourceTree = "<group>";
+		};
+		00182345280172A7009A437C /* PublishPostViewController */ = {
+			isa = PBXGroup;
+			children = (
+				00182346280172C0009A437C /* PublishPostViewController.swift */,
+				00182347280172C0009A437C /* PublishPostViewController.xib */,
+			);
+			path = PublishPostViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -232,13 +372,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0018231C2801709D009A437C /* LoginViewController.xib in Resources */,
 				0018231228016E8F009A437C /* ProfileViewController.xib in Resources */,
+				00182349280172C0009A437C /* PublishPostViewController.xib in Resources */,
 				0018230328016E10009A437C /* ExploreViewController.xib in Resources */,
+				00182321280170C5009A437C /* RegistrationViewController.xib in Resources */,
+				0018232628017172009A437C /* PostViewController.xib in Resources */,
+				00182335280171FC009A437C /* ListViewController.xib in Resources */,
+				0018233A2801721A009A437C /* SearchViewController.xib in Resources */,
 				0018230D28016E6F009A437C /* NotificationsViewController.xib in Resources */,
 				0018230828016E42009A437C /* CameraViewController.xib in Resources */,
+				001823442801729D009A437C /* PostEditorViewController.xib in Resources */,
+				00182330280171DC009A437C /* SettingsViewController.xib in Resources */,
 				0018231728016F4E009A437C /* TabBarViewController.xib in Resources */,
 				001822F328016B4D009A437C /* LaunchScreen.storyboard in Resources */,
 				001822F028016B4D009A437C /* Assets.xcassets in Resources */,
+				0018233F28017235009A437C /* ResultViewController.xib in Resources */,
+				0018232B28017189009A437C /* EditViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,14 +399,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				001823392801721A009A437C /* SearchViewController.swift in Sources */,
+				0018231B2801709D009A437C /* LoginViewController.swift in Sources */,
 				0018231628016F4E009A437C /* TabBarViewController.swift in Sources */,
+				0018233E28017235009A437C /* ResultViewController.swift in Sources */,
+				001823432801729D009A437C /* PostEditorViewController.swift in Sources */,
 				0018230228016E10009A437C /* ExploreViewController.swift in Sources */,
 				0018230728016E42009A437C /* CameraViewController.swift in Sources */,
+				00182320280170C5009A437C /* RegistrationViewController.swift in Sources */,
 				001822EB28016B49009A437C /* HomeViewController.swift in Sources */,
+				00182334280171FC009A437C /* ListViewController.swift in Sources */,
+				00182348280172C0009A437C /* PublishPostViewController.swift in Sources */,
 				0018230C28016E6F009A437C /* NotificationsViewController.swift in Sources */,
 				0018231128016E8F009A437C /* ProfileViewController.swift in Sources */,
+				0018232A28017189009A437C /* EditViewController.swift in Sources */,
 				001822E728016B49009A437C /* AppDelegate.swift in Sources */,
+				0018232F280171DC009A437C /* SettingsViewController.swift in Sources */,
 				001822E928016B49009A437C /* SceneDelegate.swift in Sources */,
+				0018232528017172009A437C /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
