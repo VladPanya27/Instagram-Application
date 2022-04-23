@@ -6,3 +6,8 @@
 //
 
 import Foundation
+import UIKit
+
+struct Constans {
+    static let cornerRadius:CGFloat = 8.0
+}

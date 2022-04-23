@@ -36,10 +36,10 @@ class TabBarViewController: UITabBarController {
         let nav5 = UINavigationController(rootViewController: vc5)
 
         
-        nav1.tabBarItem = UITabBarItem(title: nil, image: UIImage(systemName: "house.circle"), tag: 1)
-        nav2.tabBarItem = UITabBarItem(title: nil, image: UIImage(systemName: "globe"), tag: 1)
+        nav1.tabBarItem = UITabBarItem(title: nil, image: UIImage(systemName: "house"), tag: 1)
+        nav2.tabBarItem = UITabBarItem(title: nil, image: UIImage(systemName: "magnifyingglass"), tag: 1)
         nav3.tabBarItem = UITabBarItem(title: nil, image: UIImage(systemName: "plus"), tag: 1)
-        nav4.tabBarItem = UITabBarItem(title: nil, image: UIImage(systemName: "bell"), tag: 1)
+        nav4.tabBarItem = UITabBarItem(title: nil, image: UIImage(systemName: "suit.heart"), tag: 1)
         nav5.tabBarItem = UITabBarItem(title: nil, image: UIImage(systemName: "person"), tag: 1)
 
 

@@ -46,6 +46,13 @@
 		0018235428018433009A437C /* FirebaseAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0018235328018433009A437C /* FirebaseAuthManager.swift */; };
 		0018235628018A93009A437C /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0018235528018A93009A437C /* DatabaseManager.swift */; };
 		0018235828018D04009A437C /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0018235728018D04009A437C /* StorageManager.swift */; };
+		0018235B2801B666009A437C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0018235A2801B666009A437C /* Extensions.swift */; };
+		0018235E28020E12009A437C /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0018235D28020E12009A437C /* LoginViewModel.swift */; };
+		0018236128020E5B009A437C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0018236028020E5B009A437C /* Constants.swift */; };
+		00182363280358C1009A437C /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00182362280358C1009A437C /* Alerts.swift */; };
+		0018236628035E2E009A437C /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 0018236528035E2E009A437C /* Algorithms */; };
+		0018236A28113D5D009A437C /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0018236928113D5D009A437C /* RegistrationViewModel.swift */; };
+		0018236C281141B0009A437C /* SafeEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0018236B281141B0009A437C /* SafeEmail.swift */; };
 		F4702DECEE7D4B066EFFF9F2 /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CD6A18BF753C87E8E0EFF3 /* Pods_Instagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +98,12 @@
 		0018235328018433009A437C /* FirebaseAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthManager.swift; sourceTree = "<group>"; };
 		0018235528018A93009A437C /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		0018235728018D04009A437C /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		0018235A2801B666009A437C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0018235D28020E12009A437C /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		0018236028020E5B009A437C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		00182362280358C1009A437C /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		0018236928113D5D009A437C /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		0018236B281141B0009A437C /* SafeEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeEmail.swift; sourceTree = "<group>"; };
 		6E5B2337B8693E9DF0B7D2B1 /* Pods-Instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.debug.xcconfig"; path = "Target Support Files/Pods-Instagram/Pods-Instagram.debug.xcconfig"; sourceTree = "<group>"; };
 		93CD6A18BF753C87E8E0EFF3 /* Pods_Instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9194E4858CB15E2136A00CF /* Pods-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.release.xcconfig"; path = "Target Support Files/Pods-Instagram/Pods-Instagram.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0018236628035E2E009A437C /* Algorithms in Frameworks */,
 				F4702DECEE7D4B066EFFF9F2 /* Pods_Instagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,6 +143,8 @@
 		001822E528016B49009A437C /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
+				0018235F28020E39009A437C /* Helpers */,
+				001823592801B64C009A437C /* Extensions */,
 				0018235228018418009A437C /* Managers */,
 				001822FA28016CD9009A437C /* Resources */,
 				001822FD28016CFE009A437C /* Models */,
@@ -245,6 +261,7 @@
 			isa = PBXGroup;
 			children = (
 				001823192801709D009A437C /* LoginViewController.swift */,
+				0018235C28020DF8009A437C /* LoginViewModel */,
 				0018231A2801709D009A437C /* LoginViewController.xib */,
 			);
 			path = LoginViewController;
@@ -254,6 +271,7 @@
 			isa = PBXGroup;
 			children = (
 				0018231E280170C5009A437C /* RegistrationViewController.swift */,
+				0018236828113D3C009A437C /* RegistrarionViewModel */,
 				0018231F280170C5009A437C /* RegistrationViewController.xib */,
 			);
 			path = RegistrationViewController;
@@ -341,6 +359,40 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
+		001823592801B64C009A437C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0018235A2801B666009A437C /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0018235C28020DF8009A437C /* LoginViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0018235D28020E12009A437C /* LoginViewModel.swift */,
+			);
+			path = LoginViewModel;
+			sourceTree = "<group>";
+		};
+		0018235F28020E39009A437C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0018236028020E5B009A437C /* Constants.swift */,
+				00182362280358C1009A437C /* Alerts.swift */,
+				0018236B281141B0009A437C /* SafeEmail.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0018236828113D3C009A437C /* RegistrarionViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0018236928113D5D009A437C /* RegistrationViewModel.swift */,
+			);
+			path = RegistrarionViewModel;
+			sourceTree = "<group>";
+		};
 		BC072841A7297D82CDA2DAD0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -376,6 +428,9 @@
 			dependencies = (
 			);
 			name = Instagram;
+			packageProductDependencies = (
+				0018236528035E2E009A437C /* Algorithms */,
+			);
 			productName = Instagram;
 			productReference = 001822E328016B49009A437C /* Instagram.app */;
 			productType = "com.apple.product-type.application";
@@ -404,6 +459,9 @@
 				Base,
 			);
 			mainGroup = 001822DA28016B49009A437C;
+			packageReferences = (
+				0018236428035E2E009A437C /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			productRefGroup = 001822E428016B49009A437C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -488,15 +546,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0018235E28020E12009A437C /* LoginViewModel.swift in Sources */,
 				001823392801721A009A437C /* SearchViewController.swift in Sources */,
 				0018231B2801709D009A437C /* LoginViewController.swift in Sources */,
 				0018231628016F4E009A437C /* TabBarViewController.swift in Sources */,
 				0018235828018D04009A437C /* StorageManager.swift in Sources */,
+				0018236C281141B0009A437C /* SafeEmail.swift in Sources */,
 				0018233E28017235009A437C /* ResultViewController.swift in Sources */,
 				001823432801729D009A437C /* PostEditorViewController.swift in Sources */,
 				0018230228016E10009A437C /* ExploreViewController.swift in Sources */,
 				0018230728016E42009A437C /* CameraViewController.swift in Sources */,
+				0018236A28113D5D009A437C /* RegistrationViewModel.swift in Sources */,
 				00182320280170C5009A437C /* RegistrationViewController.swift in Sources */,
+				0018235B2801B666009A437C /* Extensions.swift in Sources */,
+				00182363280358C1009A437C /* Alerts.swift in Sources */,
 				001822EB28016B49009A437C /* HomeViewController.swift in Sources */,
 				00182334280171FC009A437C /* ListViewController.swift in Sources */,
 				00182348280172C0009A437C /* PublishPostViewController.swift in Sources */,
@@ -509,6 +572,7 @@
 				0018232F280171DC009A437C /* SettingsViewController.swift in Sources */,
 				001822E928016B49009A437C /* SceneDelegate.swift in Sources */,
 				0018232528017172009A437C /* PostViewController.swift in Sources */,
+				0018236128020E5B009A437C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,8 +716,10 @@
 				INFOPLIST_FILE = Instagram/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -679,8 +745,10 @@
 				INFOPLIST_FILE = Instagram/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -716,6 +784,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0018236428035E2E009A437C /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0018236528035E2E009A437C /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0018236428035E2E009A437C /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 001822DB28016B49009A437C /* Project object */;
 }

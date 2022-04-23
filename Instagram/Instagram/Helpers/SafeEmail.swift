@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+class SafeEmail {
+    static func safeDatabaseKey(with email: String) -> String {
+            return email.replacingOccurrences(of: ".", with: "-").replacingOccurrences(of: "@", with: "-")
+        }
+    }
+
