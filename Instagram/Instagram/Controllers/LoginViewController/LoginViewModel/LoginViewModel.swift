@@ -7,7 +7,6 @@
 
 import Foundation
 import SafariServices
-import FirebaseAuth
 
 class LoginViewModel {
     

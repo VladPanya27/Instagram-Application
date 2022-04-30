@@ -6,7 +6,6 @@ target 'Instagram' do
   use_frameworks!
 
   # Pods for Instagram
-
 pod 'Appirater'
 
 # Firebase
@@ -16,6 +15,11 @@ pod 'Firebase/Database'
 pod 'Firebase/Analytics'
 pod 'Firebase/Crashlytics'
 pod 'Firebase/Storage'
+pod 'Kingfisher'
+end
 
-
+post_install do |installer|
+  installer.pods_project.build_configurations.each do |config|
+    config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+  end
 end

@@ -20,6 +20,5 @@ final class IGFeedPostTableViewCell: UITableViewCell {
     }
 
     public func configure() {
-        
     }
 }
