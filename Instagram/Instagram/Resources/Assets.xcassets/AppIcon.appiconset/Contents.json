@@ -31,11 +31,13 @@
       "size" : "40x40"
     },
     {
+      "filename" : "sm-icons-instagram-app-icon.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
+      "filename" : "com.instagram.android.icon.2021-11-29-09-10-47.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
